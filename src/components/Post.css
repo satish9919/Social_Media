@@ -1,0 +1,72 @@
+.post-card-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 30rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card-container.hovered {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: white;
+  color: red;
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: aqua;
+  color: red;
+}
+
+.post-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.post-body {
+  color: #4b5563;
+  margin-bottom: 15px;
+}
+
+.post-tags {
+  margin-bottom: 15px;
+}
+
+.tag-chip {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tag-chip:hover {
+  background: #bae6fd;
+}
+
+.post-reactions {
+  background: #dcfce7;
+  color: #166534;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
